@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS nad Tailwind CSS</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body> 
+    <div id="main" class="flex justify-center items-center flex-row text-center gap-4 relative">
+      <h1 class="text-3xl font-bold text-amber-500 text-center absolute top-0">
+        This is a CSS Properties, Background and Tailwind CSS
+      </h1>
+
+      <div id="container" class="text-center flex justify-center items-center">
+        <h1 class="text-3xl font-bold text-red-400 ">
+          This is a CSS Properties and Tailwind CSS
+        </h1>
+      </div>
+
+      <div
+        id="tail"
+        class="flex justify-center items-center flex-col text-center"
+      >
+        <h1 id="tail-head" class="text-3xl font-bold text-emerald-500">
+          What is Tailwind CSS used for?
+        </h1>   
+        <p class="text-3xl text-rose-500">
+          <span class="tail-text">Tailwind CSS is a utility-first CSS framework</span> used for building custom
+          designs by providing pre-defined utility classes that can be directly
+          applied to HTML. It allows developers to style websites without
+          writing custom CSS, promoting consistency and speed in web
+          development.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
